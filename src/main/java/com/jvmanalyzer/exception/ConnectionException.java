@@ -1,10 +1,10 @@
 package com.jvmanalyzer.exception;
 
-public class CannotCreateConnectionException extends RuntimeException{
+public class ConnectionException extends RuntimeException{
 	
 	private static final long serialVersionUID = -6379001054722861932L;
 	
-	public CannotCreateConnectionException(String message){
+	public ConnectionException(String message){
 		super(message);
 	}
 
